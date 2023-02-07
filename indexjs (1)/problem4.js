@@ -1,0 +1,24 @@
+let name = "Sakshi Pal";
+let school  = "Lucknow Public School";
+let sub1  = "Maths";
+let sub2 = "English";
+let sub3 = "Hindi";
+let grade1 = "A";
+let grade2 = "B";
+let grade3 = "A+"
+let Rollno = 23;
+let sec ="B";
+let Maths = 39;
+let English = 34;
+let Hindi = 46;
+console.log("              Report Card           ");
+console.log( school  );
+console.log("Student name:",name);
+console.log("Roll No:",Rollno);
+console.log("section:",sec);
+console.log("sub1:",sub1,Maths,grade1);
+console.log("sub2:",sub2,English , grade2);
+console.log("sub3:" ,sub3,Hindi,grade3);
+console.log("obtain Marks:",Maths+English+Hindi);
+console.log("Total Marks:",150);
+console.log("Grade:",(119/150)*100);
